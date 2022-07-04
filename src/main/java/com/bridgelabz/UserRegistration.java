@@ -10,7 +10,7 @@ public class UserRegistration {
         return Pattern.matches("[A-Z][A-Z a-z]{2,}",lastName);
     }
     public boolean validateEmail(String email){
-        return Pattern.matches("[a-z][A-Z a-z 0-9]+[@][a-z]+[.][a-z]{2,5}",email);
+        return Pattern.matches("[\\w+-]+(?:\\.[\\w+-]+)*[@][\\w]{1,}([.]{1}[a-z]{2,}){1,2}",email);
     }
     public boolean validateMobileNumber(String mobileNumber){
         return Pattern.matches("[+]91 [6-9]\\d{9}",mobileNumber);
