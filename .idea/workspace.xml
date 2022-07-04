@@ -5,6 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="31411715-b01b-48ff-b7a9-225569a36343" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistrationException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/bridgelabz/UserRegistration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/bridgelabz/UserRegistrationTest.java" afterDir="false" />
@@ -72,7 +73,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistrationTest.validateEmailTestReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistrationTest.validateFirstNameTestReturnTrue" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="user-registration-junit" />
       <extension name="coverage">
         <pattern>
@@ -82,7 +83,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.bridgelabz" />
       <option name="MAIN_CLASS_NAME" value="com.bridgelabz.UserRegistrationTest" />
-      <option name="METHOD_NAME" value="validateEmailTestReturnTrue" />
+      <option name="METHOD_NAME" value="validateFirstNameTestReturnTrue" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -123,10 +124,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="JUnit.UserRegistrationTest" />
+        <item itemvalue="JUnit.UserRegistrationTest.validateFirstNameTestReturnTrue" />
         <item itemvalue="JUnit.UserRegistrationTest.validEmailValidationTest" />
         <item itemvalue="JUnit.UserRegistrationTest.validatePasswordReturnFalse" />
         <item itemvalue="JUnit.UserRegistrationTest.validateMobileNumberReturnTrue" />
-        <item itemvalue="JUnit.UserRegistrationTest.validateEmailTestReturnTrue" />
       </list>
     </recent_temporary>
   </component>
